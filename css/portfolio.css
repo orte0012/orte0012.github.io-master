@@ -1,0 +1,135 @@
+a{
+    font-size:"6";
+    padding: 0;
+}
+
+h1{
+    padding-top: 4rem;
+    color:white;
+    text-align: center;
+    font-family: times, serif; 
+    font-size:6.5rem; 
+    font-style:bold;
+}
+h2{
+    text-align: center;
+    font-family: times, serif; 
+    font-style:italic;
+
+}
+h5{
+    font-size: 2.5em;
+}
+#myHead{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+#titlehead{
+    font-size: 50px;
+}
+
+.card{
+    border:none;
+}
+.videoyt{
+    max-width: 100%;
+    max-height: 100%;
+    display:flex;
+    justify-content: center;
+}
+.jumbotron {
+
+  background-image: url("../img/mtv-bg.png");
+  background-size: cover;
+}
+body{
+    background-image: url("../img/mtv-bg.jpg");
+}
+
+.card-img-top{
+   padding-bottom: 1.5rem;
+}
+.card-body{
+    padding-bottom: 1rem;
+}
+
+.btn{
+    margin-left:.5rem;
+    display:flex;
+    justify-content: center;
+}
+.image-center{
+    display:flex;
+    justify-content: center;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin:0;
+
+}
+a.btn-social,
+.btn-social
+{
+    border-radius: 50%;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 54px;
+    line-height: 54px;
+    margin: 8px 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s;
+    width: 54px;
+}
+.btn-social.btn-xs
+{
+    font-size:50px;
+    height: 24px;
+    line-height: 13px;
+    margin: 6px 2px;
+    width: 24px;
+}
+.btn-social.btn-sm
+{
+    font-size: 50px;
+    height: 36px;
+    line-height: 18px;
+    margin: 6px 2px;
+    width: 36px;
+}
+.btn-social.btn-lg
+{
+    font-size: 22px;
+    height: 72px;
+    line-height: 40px;
+    margin: 10px 6px;
+    width: 72px;
+}
+.btn-facebook
+{
+    background-color: #3b5998;
+}
+.btn-facebook:hover
+{
+    background-color: #4c70ba;
+}
+.btn-linkedin
+{
+    background-color: #0976b4;
+}
+.btn-linkedin:hover
+{
+    background-color: #0b96e5;
+}
+.btn-github
+{
+    background-color: #6d6469;
+}
+.btn-github:hover
+{
+    background-color: #689cd0;
+}
