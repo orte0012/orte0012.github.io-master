@@ -8,7 +8,7 @@ h1{
     color:white;
     text-align: center;
     font-family: times, serif; 
-    font-size:3.5rem; 
+    font-size:4.5rem; 
     font-style:bold;
 }
 h2{
@@ -71,3 +71,21 @@ body{
     margin:0;
 
 }
+
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(17, 17, 17), 0 0 20px #fff, 0 0 30px #ec9f0e, 0 0 40px #2812eb, 0 0 50px #df1c1c, 0 0 60px #09eb8c, 0 0 70px #f043c5;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f1e209, 0 0 40px #0d09f5, 0 0 50px #db2f2f, 0 0 60px #54db39, 0 0 70px #e9e3e6, 0 0 80px #1aceee;
+    }
+  }
