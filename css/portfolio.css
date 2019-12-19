@@ -15,7 +15,13 @@ h2{
     text-align: center;
     font-family: times, serif; 
     font-style:italic;
+    padding-bottom: .7rem;
 
+}
+
+address{
+    text-align: center;
+    font-style: italic;
 }
 h5{
     font-size: 2.5em;
@@ -74,10 +80,10 @@ body{
   
   @keyframes glow {
     from {
-      text-shadow: 0 0 10px rgb(17, 17, 17), 0 0 20px #fff, 0 0 30px #ec9f0e, 0 0 40px #2812eb, 0 0 50px #df1c1c, 0 0 60px #09eb8c, 0 0 70px #f043c5;
+      text-shadow: 0 0 5px rgb(17, 17, 17), 0 0 20px #fff, 0 0 10px #ec9f0e, 0 0 10px #2812eb, 0 0 50px #df1c1c, 0 0 10px #09eb8c, 0 0 20px #f043c5;
     }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #f1e209, 0 0 40px #0d09f5, 0 0 50px #db2f2f, 0 0 60px #54db39, 0 0 70px #e9e3e6, 0 0 80px #1aceee;
+      text-shadow: 0 0 7px #fff, 0 0 10px #f1e209, 0 0 20px #0d09f5, 0 0 20px #db2f2f, 0 0 20px #54db39, 0 0 20px #e9e3e6, 0 0 20px #1aceee;
     }
   }
