@@ -80,7 +80,7 @@ body{
   
   @keyframes glow {
     from {
-      text-shadow: 0 0 5px rgb(17, 17, 17), 0 0 20px #fff, 0 0 10px #ec9f0e, 0 0 10px #2812eb, 0 0 50px #df1c1c, 0 0 10px #09eb8c, 0 0 20px #f043c5;
+      text-shadow: 0 0 5px rgb(17, 17, 17), 0 0 20px #fff, 0 0 10px #ec9f0e, 0 0 10px #2812eb, 0 0 20px #df1c1c, 0 0 10px #09eb8c, 0 0 10px #f043c5;
     }
     
     to {
