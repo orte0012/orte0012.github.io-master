@@ -80,7 +80,7 @@ body{
     animation: glow 1s ease-in-out infinite alternate;
   }
   
-  @-webkit-keyframes glow {
+  @keyframes glow {
     from {
       text-shadow: 0 0 10px rgb(17, 17, 17), 0 0 20px #fff, 0 0 30px #ec9f0e, 0 0 40px #2812eb, 0 0 50px #df1c1c, 0 0 60px #09eb8c, 0 0 70px #f043c5;
     }
