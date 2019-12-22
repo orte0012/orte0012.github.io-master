@@ -12,6 +12,7 @@ h1{
     font-style:bold;
 }
 h2{
+    margin-left: 5rem;
     text-align: center;
     font-family: times, serif; 
     font-style:italic;
@@ -37,7 +38,7 @@ h5{
     justify-content: center;
 }
 .jumbotron {
-margin-left: 4rem;
+    width: 100%;
   background-image: url("../img/mtv-bg.png");
   background-size: cover;
 }
