@@ -37,7 +37,7 @@ h5{
     justify-content: center;
 }
 .jumbotron {
-
+margin-left: 4rem;
   background-image: url("../img/mtv-bg.png");
   background-size: cover;
 }
