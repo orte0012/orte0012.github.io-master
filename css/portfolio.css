@@ -1,4 +1,7 @@
 
+.mx-auto{
+    margin:auto !important;
+}
 a{
     font-size:"6";
     padding: 0;
